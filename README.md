@@ -10,17 +10,4 @@ This project provides a resume analysis API that extracts and evaluates role-bas
 - Returns a structured JSON response with role-wise matches and skill breakdowns
 - Exposes the functionality as a FastAPI endpoint
 
-## Project Structure
-JobRecommendation/
-│
-│  main.py # FastAPI app with /match_roles endpoint
-│
-├── utils/
-│ ├── parser.py # Utility to extract text from PDF resumes
-│ ├── skills_extractor.py # Core logic for skill extraction and scoring
-│ └── role_profile.py # Dictionary of job roles and associated skills
-│
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
-
 
