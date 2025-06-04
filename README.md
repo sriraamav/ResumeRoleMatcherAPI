@@ -1,6 +1,3 @@
-# ResumeRoleMatcherAPI
-The Resume Role Matcher API uses Natural Language Processing (via spaCy) to extract skills from resumes and match them against predefined role profiles. It returns the most relevant roles based on skill overlap and category-weighted scoring.
-
 # Resume Role Matcher API
 
 This project provides a resume analysis API that extracts and evaluates role-based skills from resumes. It uses natural language processing (NLP) to lemmatize and match resume content with predefined job role profiles, assigning relevance scores based on skill overlap and weighted categories.
